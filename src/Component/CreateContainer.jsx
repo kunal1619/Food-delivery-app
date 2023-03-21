@@ -44,7 +44,7 @@ const CreateContainer = () => {
 
     uploadTask.on(
       "state_changed",
-      (snapshot) => {
+      (snapshot) =>{
         const uploadProgress =
           (snapshot.bytesTransferred / snapshot.totalBytes) * 100; //this every thing available on firebase doc how to uplaod data in
       }, //firebase storage
